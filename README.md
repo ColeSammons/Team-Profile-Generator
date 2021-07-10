@@ -30,6 +30,7 @@
   Organizes employee information in a clean and orderly fashion.
   
   ![Screenshot](./images/example.png)
+  [Video of user flow](https://drive.google.com/file/d/1VAGFWu4mvouZADmLp9Q0qOrnpQXKiYmD/view)
 
   ## Technologies
   

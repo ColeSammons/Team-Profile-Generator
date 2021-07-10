@@ -10,6 +10,7 @@ const generateManager = function (manager) {
                     <ul class="list-group list-group-flush border">
                         <li class="list-group-item">ID: ${id}</li>
                         <li class="list-group-item">
+                            Email: 
                             <a href="mailto: ${email}" class="card-link">${email}</a>
                         </li>
                         <li class="list-group-item">Office number: ${officeNumber}</li>
@@ -33,7 +34,8 @@ const generateEngineer = function (engineer) {
                     <ul class="list-group list-group-flush border">
                         <li class="list-group-item">ID: ${id}</li>
                         <li class="list-group-item">
-                            <a href="mailto: ${email}" class="card-link">Email: ${email}</a>
+                            Email: 
+                            <a href="mailto: ${email}" class="card-link">${email}</a>
                         </li>
                         <li class="list-group-item">
                             Github: 
@@ -61,7 +63,8 @@ const generateIntern = function (intern) {
                     <ul class="list-group list-group-flush border">
                         <li class="list-group-item">ID: ${id}</li>
                         <li class="list-group-item">
-                            <a href="mailto: ${email}" class="card-link">Email: ${email}</a>
+                            Email: 
+                            <a href="mailto: ${email}" class="card-link">${email}</a>
                         </li>
                         <li class="list-group-item">School: ${school}</li>
                     </ul>
