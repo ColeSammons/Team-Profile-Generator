@@ -19,6 +19,9 @@ const generateManager = function (manager) {
 }
 
 const generateEngineer = function (engineer) {
+    if(!engineer) {
+        return '';
+    }
     return engineer.map(({ name, id, email, github }) => {
         return `
     <div class="card p-0 shadow m-3" style="width: 18rem; ">
@@ -44,6 +47,9 @@ const generateEngineer = function (engineer) {
 }
 
 const generateIntern = function (intern) {
+    if(!intern) {
+        return '';
+    }
     return intern.map(({ name, id, email, school }) => {
         return `
     <div class="card p-0 shadow m-3" style="width: 18rem; ">
